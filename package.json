@@ -2,12 +2,16 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bit1100.github.io/My_Portpolio_Website",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
