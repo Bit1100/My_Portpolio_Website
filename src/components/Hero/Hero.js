@@ -15,7 +15,7 @@ const Hero = (props) => (
           having 3 years of experience working in IT industry.
         </HeroText>
         <Button onClick={props.handleClick}>Learn More</Button>
-        <ProfilePic src="/images/mypic.png" />
+        <ProfilePic src="./images/mypic.png" />
       </LeftSection>
     </HeroSection>
   </>
